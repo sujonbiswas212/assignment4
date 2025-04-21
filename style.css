@@ -1,0 +1,162 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     transition: all 0.5s linear;
+
+}
+
+body{
+     overflow-x: hidden;
+}
+.skill{
+     background-color: #dcc8fd;
+     height: max-content;
+}
+.client{
+     background-color: #dcc8fd;
+     height: max-content;
+}
+.contact{
+     background-color: #dcc8fd;
+     height: max-content;
+}
+
+#life{
+     width: 350px;
+     height: 330px;
+     background-color: black !important;
+     color: white;
+}
+
+#client{
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     left: 10px;
+     top: 5px;
+
+}
+.img1{
+     margin-top: -9rem;
+}
+.img2{
+     margin-top: -9rem;
+}
+
+#loc{
+     font-size: 30px;
+     background-color: blue;
+     height: max-content;
+     color: white;
+     padding: 5px;
+     border-radius: 50%;
+}
+
+#pho{
+     font-size: 30px;
+     background-color: blue;
+     height: max-content;
+     color: white;
+     padding: 5px;
+     border-radius: 50%;
+
+}
+#email{
+     font-size: 30px;
+     background-color: blue;
+     height: max-content;
+     color: white;
+     padding: 5px;
+     border-radius: 50%;
+
+}
+
+.social > i{
+     background-color: black;
+     padding: 10px;
+}
+
+
+/* media query */
+
+@media (max-width:468px){
+
+    .container{
+     display: grid;
+     grid-template-columns: repeat(1,1fr);
+     width: auto;
+     margin: 0 auto;
+
+    }
+
+    .img-fluid{
+     margin: 0 auto;
+     display: block;
+     flex-direction: column;
+     flex-wrap: wrap;
+     text-align: justify;
+     justify-content: center;
+     #p10{
+          margin-left: -0rem !important;
+          width: auto;
+          margin-top: 10px;
+         }
+
+         .im{
+          width: auto;
+          margin-left: 14rem !important;
+         }
+    }
+
+   
+}
+
+
+@media(min-width:468px) and (max-width:768px){
+     .container{
+          margin: 0 auto;
+          display: block;
+          display: grid;
+          grid-template-columns:repeat(1,1fr);
+          flex-direction: column;
+          flex-wrap: wrap;
+          text-align: justify;
+          justify-content: center;
+          width: auto;
+          height: auto;
+
+          margin-left: auto;
+
+     
+         }
+     
+         .img-fluid{
+          margin: 0 auto;
+          display: block;
+          display: grid;
+          grid-template-columns:repeat(1,1fr);
+          flex-direction: column;
+          flex-wrap: wrap;
+          text-align: center;
+          justify-content: center;
+          width: auto;
+          height: auto;
+          margin-top: 20px;
+          padding-top: 10px;         
+
+          margin-left: auto;
+         }
+
+         img{
+          width: auto;
+          height: auto;
+          align-items: center;
+          text-align: justify;
+          justify-content: center;
+          margin-top: 10px;
+          padding: 10px;
+          
+         }
+      
+}
